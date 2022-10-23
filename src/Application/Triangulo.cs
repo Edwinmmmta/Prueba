@@ -7,9 +7,9 @@ public class Triangulo
         double perimetro = lado1 + lado2 + lado3;
         return perimetro;
     }
-    public static double Area(double base, double altura)
+    public static double Area(double _base, double altura)
     {
-        double area = ((base * altura) / 2);
+        double area = ((_base * altura) / 2);
         return area;
     }
 }
